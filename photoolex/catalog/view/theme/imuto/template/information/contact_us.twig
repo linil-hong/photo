@@ -1,0 +1,72 @@
+{{ header }}
+<div id="information-information" class="container-fluid content-container">
+    <div class="row breadcrumb-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="breadcrumb">
+                        {% for breadcrumb in breadcrumbs %}
+                            <li class="font14"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="information-item-box">
+                        <h3 class="information-title text-uppercase font24">Contact Us</h3>
+                        <p class="information-content font14">
+                            Whether you're a iMuto or PHOTOOLEX owner or just have a question about our products, TianBaoTong is committed to providing a rewarding customer experience. Select the most convenient way to reach us, and we look forward to assisting you.
+                        </p>
+                    </div>
+                    <div class="information-item-box">
+                        <h3 class="information-title text-uppercase font24">Address&nbsp;&nbsp;<img src="/catalog/view/theme/imuto/image/icon/icon-contact-address.png" class="img-responsive" style="top: -4px;position: relative;"></h3>
+                        <div class="information-paragraph">
+                            <p>
+                                imuto Limited
+                                <br/>
+                                Shenzhen Tianbaotong Technology Co., Ltd
+                            </p>
+                            <br/>
+                            <p>
+                                Office: 5F B Building D District, Linyuan Industrial Park, Huarong Road,
+                                <br/>
+                                Gaofeng Community, Dalang Street, Shenzhen, China 518109.
+                                <br/>
+                                オフィス: 東京都港区南青山２ー29 ー 9 ー 503.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="information-item-box">
+                        <h3 class="information-title text-uppercase font24">Email&nbsp;&nbsp;<img src="/catalog/view/theme/imuto/image/icon/icon-contact-email.png" class="img-responsive" style="top: -4px;position: relative;"></h3>
+                        <div class="information-paragraph">
+                            <h4 class="font16 font-bold">
+                                iMuto
+                            </h4>
+                            <p class="font14">
+                                Customer Service: support@imuto.com
+                                <br/>
+                                Business Contact: marketing@imuto.com
+                            </p>
+                        </div>
+                        <div class="information-paragraph">
+                            <h4 class="font16 font-bold">
+                                PHOTOOLEX
+                            </h4>
+                            <p class="font14">
+                                Customer Service: support@photoolex.net
+                                <br/>
+                                Business Contact: marketing@imuto.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ footer }}

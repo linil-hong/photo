@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^photoolex.net [NC]
+RewriteRule ^(.*)$ http://www.photoolex.net/$1 [L,R=301,NC]
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.photoolex.net/$1 [R,L]
